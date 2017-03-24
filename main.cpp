@@ -1,6 +1,6 @@
 /*****************************************************************************
- * AUTHOR	  : Stanley Ferguson and Milad Fatemi
- * STUDENT ID : 1052330 and 1050506
+ * AUTHOR	  : 
+ * STUDENT ID     : 
  * LAB #16	  : Selection - Party Planner
  * CLASS	  : CS1A
  * SECTION	  : MW: 8am
@@ -27,9 +27,9 @@ using namespace std;
  *	  The set of data will be input
  *
  * 	  	name		: the full name of the friend
- * 	 	age				: the age of friend
+ * 	 	age		: the age of friend
  * 	  	snackChocolate	: if friend likes chocolate option
- * 	  	snackNuts		: if friend likes nuts option
+ * 	  	snackNuts	: if friend likes nuts option
  *
  * OUTPUT:
  * 	This program will output the program heading, the beverage and snack
@@ -37,7 +37,7 @@ using namespace std;
  *
  * 		name		: the full name of the friend
  * 		snackPreference	: the friends snack preference
- * 		beverage		: the friends beverage based on age
+ * 		beverage	: the friends beverage based on age
  *
  *****************************************************************************/
 
@@ -49,10 +49,10 @@ int main()
 	 * OUTPUT - THE CLASS HEADING
 	 * -----------------------------------------------------------------------
 	 * PROGRAMMER : Programmer's Name
-	 * CLASS	  : Student's Course
-	 * SECTION	  : Class Days and Times
-	 * LAB_NUM	  : Lab Number (specific to this lab)
-	 * LAB_NAME	  : Title of the Lab
+	 * CLASS      : Student's Course
+	 * SECTION    : Class Days and Times
+	 * LAB_NUM    : Lab Number (specific to this lab)
+	 * LAB_NAME   : Title of the Lab
 	 * -----------------------------------------------------------------------
 	 * CONSTANTS USED FOR THE COLUMN SPACING
 	 * -----------------------------------------------------------------------
@@ -61,35 +61,31 @@ int main()
 	 * SNACK_PREF_SIZE : size for string
 	 * BEVERAGE_SIZE   : size for string
 	 *************************************************************************/
-	const char  PROGRAMMER[] = "Stanley Ferguson and Milad Fatemi";
-	const char  CLASS[]		 = "CS1A";
-	const char  SECTION[]	 = "MW: 8:00a";
-	const int   LAB_NUM      = 16;
-	const char  LAB_NAME[]   = "Selection - Party Planner";
+    const char PROGRAMMER[] = " ";
+    const char CLASS[]	    = "CS1A";
+    const char SECTION[]    = "MW: 8:00a";
+    const int  LAB_NUM      = 16;
+    const char LAB_NAME[]   = "Selection - Party Planner";
 
-    const int 		NAME_SIZE  = 25;
-    const int 		PROMPT_COL = 30;
+    const int  NAME_SIZE       = 25;
+    const int  PROMPT_COL      = 30;
     const char SNACK_PREF_SIZE = 16;
     const char BEVERAGE_SIZE   = 5;
 
-    char name[NAME_SIZE];
-	int  age;             	  			   // IN & CALC  - friend's age
-	char snackChocolate;  	  			   // IN & CALC  - if friends like
-										   //              chocolate
-	char snackNuts;       	  			   // IN & CALC  - if friends like
-										   //			   nuts
-	char snackPreference[SNACK_PREF_SIZE]; // CALC & OUT - friend's snack
-										   //			   preference
-	char beverage[BEVERAGE_SIZE];          // CALC & OUT - friend's beverage
-										   //			   type
+    char name[NAME_SIZE];		   // IN & CALC  - friend's name
+    int  age;            		   // IN & CALC  - friend's age
+    char snackChocolate;  	           // IN & CALC  - if friends like chocolate
+    char snackNuts;       	  	   // IN & CALC  - if friends like nuts
+    char snackPreference[SNACK_PREF_SIZE]; // CALC & OUT - friend's snack preference
+    char beverage[BEVERAGE_SIZE];          // CALC & OUT - friend's beverage type
 
 	// OUTPUT - Class Heading
 	cout << left;
 	cout << "**********************************************************\n";
 	cout << "*  PROGRAMMED BY : "  << PROGRAMMER << endl;
-	cout << "*  "	   << setw(14) << "CLASS"	 << ": " << CLASS    << endl;
+	cout << "*  "	   << setw(14) << "CLASS"    << ": " << CLASS    << endl;
 	cout << "*  "	   << setw(14) << "SECTION"  << ": " << SECTION  << endl;
-	cout << "*  LAB #" << setw(9)  << LAB_NUM	 << ": " << LAB_NAME << endl;
+	cout << "*  LAB #" << setw(9)  << LAB_NUM    << ": " << LAB_NAME << endl;
 	cout << "**********************************************************\n\n";
 	cout << right;
 
