@@ -1,5 +1,5 @@
 **********************************************************
-*  PROGRAMMED BY : Stanley Ferguson and Milad Fatemi
+*  PROGRAMMED BY : 
 *  CLASS         : CS1A
 *  SECTION       : MW: 8:00a
 *  LAB #16       : Selection - Party Planner
